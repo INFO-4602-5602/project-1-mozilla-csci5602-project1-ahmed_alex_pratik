@@ -16,22 +16,20 @@ Ahmed Al Hasani, Alex Costinescu, and Pratik Revankar
 <p>This visualization displays the Number of Connected Devices a user owns in relation to the importance that they place on Privacy, Security, and Safety. Points are plotted based on the average answers per-country and the size of a circle is scaled based on the average tech-saviness of people surveyed from that country.</p>
 
 <h2>Design Process</h2>
-
 <p>When we read the problem statement by Mozilla and looked at the survey with the results, we started asking ourselves what questions interest us about the problem and the results. What are trends that we want to uncover, find out, and share with everyone. We wanted to find correlations between different traits across countries. We wanted to find out how tech savvy or tech aware respondents are and how this positively/negatively correlate with how important privacy is deemed and whom they trust. Does a person trust less and views privacy more important the more knowledge he/she is about technology? Are there outliers to the general trend we will uncover?</p>
 
 <h3>Privacy & Tech  Awareness Score Across the Globe</h3>
-
 <p>This visualization resulted from the following question: Does privacy priorities and tech awareness correlate and vary across different countries?</p>
-
 <p>As a result, it was evident a geographical visualization would be constructed. As all of us are comfortable with programming, and Python was a common programming language we were familiar with, we opted to create our visualizations with various Python packages. </p>
-
 <p>Python’s Plotly provides easy to use functions to create map objects that would combine seamlessly with Pandas’s dataframes which is what we used to store the dataset and preprocess it for Plotly’s geographical objects functionality. Additionally, Plotly outputs a single HTML file independent of the dataset and the packages required to create the visualization, which was very convenient for this project.</p>
-
 <p>Plotly’s chropleth graph/map will allow us to communicate position, and the color functionality provided by Plotly will allow us to communicate a second dimension, which is the score. We believed that the default color scale provided by the choropleth function was appropriate versus the red/blue color scale, because the default one was able to capture the different scores nearby and faraway countries accurately, rather than shades of blue or red which we believed made it harder to understand how one location varied exactly with another location.</p>
-
 <p>To keep the visualization simple and clean, we wanted to capture two main attributes (privacy priorities and tech awareness) through one measure. As a result, we decided to multiply the two scores, and the color scale will reflect this overall score. We opted to follow this approach, rather than have two color scales or two different visualization channels, to communicate the two different attributes in an easily interpretable way.</p>
-
 <p>Additionally, this allowed us to capture and communicate outliers in an interesting way. Is there a country with a high/low score even when the privacy and tech awareness scores were different in magnitude (where one score was significantly higher than the other)? This is further discussed under the tasks section.</p>
+
+<h3>Trust vs. Knowledge</h3>
+<p>We wanted to explore the correlation between “trust” and “knowledge” of the respondents of the survey, to see <strong>whom they trust</strong> to educate them about online safety, security and privacy and their <strong>technology literacy</strong>, based on the number of terms they can explain. We also considered the number of online connected devices that they owned, to gain a sense of how dependent they are on technology and devices.</p>
+<p>Since we were dealing with ‘categorical’ data attributes, we considered using a heat map, to plot data points, with each tile expressing the technology savviness score, for a particular ‘trustworthy entity’ and corresponding number of online devices they own.</p>
+<p>We used an interactive visualization tool called Bokeh, since it allowed rapid development with Python. </p>
 
 <h2>Preprocessing Steps</h2>
 
@@ -72,10 +70,17 @@ Ahmed Al Hasani, Alex Costinescu, and Pratik Revankar
   <li>The final dataframe is then passed to the choropleth function from the plotly geographical_objects module. </li>
 </ol>
 
+<h3>Trust vs. Knowledge</h3>
+<p>A subset of the data was created by first identifying the relevant columns, and then hot encoding the data fields so that we could work with numeric data for aggregation. We used Python DataFrames as input to the visualizations in Bokeh.</p>
+<p>Columns for online connected devices and technology terms were encoded and aggregated, to get an overall score, for each respondent.</p>
+
 <h2>Interactivity</h2>
 
 <h3>Privacy & Tech  Awareness Score Across the Globe</h3>
 <p>This visualization provides interactivity through a hover tooltip. If the user hovers over a specific country, the data for that specific country is shown, which includes score, name of country, privacy score, tech awareness score, and the total score. </p>
+
+<h3>Trust vs. Knowledge</h3>
+<p>This visualization provides interactivity through a hover tooltip. If the user hovers over a specific tile, the data for that specific tile is shown, which includes Technology Literacy score, and the total number of responses.</p>
 
 <h2>Tasks Accomplished</h2>
 
@@ -91,6 +96,10 @@ Ahmed Al Hasani, Alex Costinescu, and Pratik Revankar
   <li><strong>Outlier Detection:</strong> There are countries in the middle of a ‘yellow sea’ that are darker in color, why are these countries different than their neighbors? </li>
 </ul>
 
+<h3>Trust vs. Knowledge</h3>
+<p>We were able to analyze how technology literacy was correlated to the entity to trust based not he number of online connected devices that an individual owned.  We learnt that respondents who owned more devices were more technologically literate (could explain more technology terms), and had fairly equal distribution of whom to trust, with resources on online safety, security and privacy.</p>
+<p>Respondents with highest literacy score, owned the max number of devices, and trusted Non-profit organizations like Mozilla and Consumer reports!</p>
+
 <h2>Data Attributes</h2>
 
 <h3>Privacy & Tech  Awareness Score Across the Globe</h3>
@@ -98,6 +107,13 @@ Ahmed Al Hasani, Alex Costinescu, and Pratik Revankar
   <li>Country</li>
   <li>Privacy Score</li>
   <li>Tech Awareness Score</li>
+</ul>
+
+<h3>Trust vs. Knowledge</h3>
+<ul>
+  <li>Who do you most trust to help you learn how to protect your safety, security and privacy online.</li>
+  <li>Number of terms they can explain</li>
+  <li>Number of online connected devices they own</li>
 </ul>
 
 <h2>Team Member Roles</h2>
