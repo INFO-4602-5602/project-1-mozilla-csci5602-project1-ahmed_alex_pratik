@@ -37,6 +37,8 @@ Ahmed Al Hasani, Alex Costinescu, and Pratik Revankar
 <p>Since we were dealing with ‘categorical’ data attributes, we considered using a heat map, to plot data points, with each tile expressing the technology savviness score, for a particular ‘trustworthy entity’ and corresponding number of online devices they own.</p>
 <p>We used an interactive visualization tool called Bokeh, since it allowed rapid development with Python. </p>
 
+<h3>Importance of Privacy, Security, and Safety vs. Number of Connective Devices Owned</h3>
+
 <br />
 <br />
 <h2>Preprocessing Steps</h2>
@@ -82,6 +84,8 @@ Ahmed Al Hasani, Alex Costinescu, and Pratik Revankar
 <p>A subset of the data was created by first identifying the relevant columns, and then hot encoding the data fields so that we could work with numeric data for aggregation. We used Python DataFrames as input to the visualizations in Bokeh.</p>
 <p>Columns for online connected devices and technology terms were encoded and aggregated, to get an overall score, for each respondent.</p>
 
+<h3>Importance of Privacy, Security, and Safety vs. Number of Connective Devices Owned</h3>
+
 <br />
 <br />
 <h2>Interactivity</h2>
@@ -91,6 +95,8 @@ Ahmed Al Hasani, Alex Costinescu, and Pratik Revankar
 
 <h3>Trust vs. Knowledge</h3>
 <p>This visualization provides interactivity through a hover tooltip. If the user hovers over a specific tile, the data for that specific tile is shown, which includes Technology Literacy score, and the total number of responses.</p>
+
+<h3>Importance of Privacy, Security, and Safety vs. Number of Connective Devices Owned</h3>
 
 <br />
 <br />
@@ -112,6 +118,8 @@ Ahmed Al Hasani, Alex Costinescu, and Pratik Revankar
 <p>We were able to analyze how technology literacy was correlated to the entity to trust based not he number of online connected devices that an individual owned.  We learnt that respondents who owned more devices were more technologically literate (could explain more technology terms), and had fairly equal distribution of whom to trust, with resources on online safety, security and privacy.</p>
 <p>Respondents with highest literacy score, owned the max number of devices, and trusted Non-profit organizations like Mozilla and Consumer reports!</p>
 
+<h3>Importance of Privacy, Security, and Safety vs. Number of Connective Devices Owned</h3>
+
 <br />
 <br />
 <h2>Data Attributes</h2>
@@ -129,6 +137,8 @@ Ahmed Al Hasani, Alex Costinescu, and Pratik Revankar
   <li>Number of terms they can explain</li>
   <li>Number of online connected devices they own</li>
 </ul>
+
+<h3>Importance of Privacy, Security, and Safety vs. Number of Connective Devices Owned</h3>
 
 <br />
 <br />
