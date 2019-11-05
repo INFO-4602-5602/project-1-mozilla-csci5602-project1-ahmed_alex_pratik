@@ -14,10 +14,11 @@ Ahmed Al Hasani, Alex Costinescu, and Pratik Revankar
 
 <h2>Design Process</h2>
 
-<h3>Privacy & Tech  Awareness Score Across the Globe</h3>
-<p>When we read the problem statement by Mozilla, and looked at the survey with the results, we started asking ourselves what questions interest us about the problem and the results. What are trends that we want to uncover, find out, and share with everyone. We wanted to find correlations between different traits across countries. We wanted to find out how tech savvy or tech aware respondents are and how this positively/negatively correlate with how important privacy is deemed and whom they trust. Does a person trust less and views privacy more important the more knowledge he/she is about technology? Are there outliers to the general trend we will uncover?</p>
+<p>When we read the problem statement by Mozilla and looked at the survey with the results, we started asking ourselves what questions interest us about the problem and the results. What are trends that we want to uncover, find out, and share with everyone. We wanted to find correlations between different traits across countries. We wanted to find out how tech savvy or tech aware respondents are and how this positively/negatively correlate with how important privacy is deemed and whom they trust. Does a person trust less and views privacy more important the more knowledge he/she is about technology? Are there outliers to the general trend we will uncover?</p>
 
-<p>Our geographical visualization resulted from the question: does privacy priorities and tech awareness correlate and vary across different countries?</p>
+<h3>Privacy & Tech  Awareness Score Across the Globe</h3>
+
+<p>This visualization resulted from the following question: Does privacy priorities and tech awareness correlate and vary across different countries?</p>
 
 <p>As a result, it was evident a geographical visualization would be constructed. As all of us are comfortable with programming, and Python was a common programming language we were familiar with, we opted to create our visualizations with various Python packages. </p>
 
@@ -32,7 +33,6 @@ Ahmed Al Hasani, Alex Costinescu, and Pratik Revankar
 <h2>Preprocessing Steps</h2>
 
 <h3>Privacy & Tech  Awareness Score Across the Globe</h3>
-<p>The preprocessing steps completed for this visualization included:</p>
 <ol>
   <li>First, we created a subset of the data. This includes the columns listed below. The first two columns are privacy priorities and fear columns, while the rest of the columns (except for Countries) reflect a respondent’s tech awareness (what devices they have and what topics they can explain).<br /><br />
     <ul>
