@@ -1,9 +1,13 @@
 <h1>5602-Mozilla</h1>
 Ahmed Al Hasani, Alex Costinescu, and Pratik Revankar
 
+<br />
+<br />
 <h2>How to Run</h2>
 <p>The links to each visualization can be found here: https://info-4602-5602.github.io/project-1-mozilla-csci5602-project1-ahmed_alex_pratik/</p>
 
+<br />
+<br />
 <h2>Information about our Visualizations</h2>
 
 <h3>Privacy & Tech  Awareness Score Across the Globe</h3>
@@ -15,6 +19,8 @@ Ahmed Al Hasani, Alex Costinescu, and Pratik Revankar
 <h3>Importance of Privacy, Security, and Safety vs. Number of Connective Devices Owned</h3>
 <p>This visualization displays the Number of Connected Devices a user owns in relation to the importance that they place on Privacy, Security, and Safety. Points are plotted based on the average answers per-country and the size of a circle is scaled based on the average tech-saviness of people surveyed from that country.</p>
 
+<br />
+<br />
 <h2>Design Process</h2>
 <p>When we read the problem statement by Mozilla and looked at the survey with the results, we started asking ourselves what questions interest us about the problem and the results. What are trends that we want to uncover, find out, and share with everyone. We wanted to find correlations between different traits across countries. We wanted to find out how tech savvy or tech aware respondents are and how this positively/negatively correlate with how important privacy is deemed and whom they trust. Does a person trust less and views privacy more important the more knowledge he/she is about technology? Are there outliers to the general trend we will uncover?</p>
 
@@ -31,6 +37,8 @@ Ahmed Al Hasani, Alex Costinescu, and Pratik Revankar
 <p>Since we were dealing with ‘categorical’ data attributes, we considered using a heat map, to plot data points, with each tile expressing the technology savviness score, for a particular ‘trustworthy entity’ and corresponding number of online devices they own.</p>
 <p>We used an interactive visualization tool called Bokeh, since it allowed rapid development with Python. </p>
 
+<br />
+<br />
 <h2>Preprocessing Steps</h2>
 
 <h3>Privacy & Tech  Awareness Score Across the Globe</h3>
@@ -74,6 +82,8 @@ Ahmed Al Hasani, Alex Costinescu, and Pratik Revankar
 <p>A subset of the data was created by first identifying the relevant columns, and then hot encoding the data fields so that we could work with numeric data for aggregation. We used Python DataFrames as input to the visualizations in Bokeh.</p>
 <p>Columns for online connected devices and technology terms were encoded and aggregated, to get an overall score, for each respondent.</p>
 
+<br />
+<br />
 <h2>Interactivity</h2>
 
 <h3>Privacy & Tech  Awareness Score Across the Globe</h3>
@@ -82,6 +92,8 @@ Ahmed Al Hasani, Alex Costinescu, and Pratik Revankar
 <h3>Trust vs. Knowledge</h3>
 <p>This visualization provides interactivity through a hover tooltip. If the user hovers over a specific tile, the data for that specific tile is shown, which includes Technology Literacy score, and the total number of responses.</p>
 
+<br />
+<br />
 <h2>Tasks Accomplished</h2>
 
 <p>Our questions resulted from our curiosity and the desire to create entertaining and interactive visualizations that enable us and users to learn about the survey’s results in a quick and lighthearted manner. Below are lists of tasks each visualization accomplishes:</p>
@@ -100,6 +112,8 @@ Ahmed Al Hasani, Alex Costinescu, and Pratik Revankar
 <p>We were able to analyze how technology literacy was correlated to the entity to trust based not he number of online connected devices that an individual owned.  We learnt that respondents who owned more devices were more technologically literate (could explain more technology terms), and had fairly equal distribution of whom to trust, with resources on online safety, security and privacy.</p>
 <p>Respondents with highest literacy score, owned the max number of devices, and trusted Non-profit organizations like Mozilla and Consumer reports!</p>
 
+<br />
+<br />
 <h2>Data Attributes</h2>
 
 <h3>Privacy & Tech  Awareness Score Across the Globe</h3>
@@ -116,6 +130,8 @@ Ahmed Al Hasani, Alex Costinescu, and Pratik Revankar
   <li>Number of online connected devices they own</li>
 </ul>
 
+<br />
+<br />
 <h2>Team Member Roles</h2>
 
 <ul>
