@@ -4,7 +4,7 @@ Ahmed Al Hasani, Alex Costinescu, and Pratik Revankar
 <br />
 <br />
 <h2>How to Run</h2>
-<p>The links to each visualization can be found here: https://info-4602-5602.github.io/project-1-mozilla-csci5602-project1-ahmed_alex_pratik/</p>
+<p>The links to each visualization can be found here: <a href="https://info-4602-5602.github.io/project-1-mozilla-csci5602-project1-ahmed_alex_pratik/" target="_blank">https://info-4602-5602.github.io/project-1-mozilla-csci5602-project1-ahmed_alex_pratik/</a></p>
 
 <br />
 <br />
