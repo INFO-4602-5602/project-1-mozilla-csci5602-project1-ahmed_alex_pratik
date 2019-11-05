@@ -1,6 +1,9 @@
 <h1>5602-Mozilla</h1>
 Ahmed Al Hasani, Alex Costinescu, and Pratik Revankar
 
+<h2>How to Run</h2>
+<p>The links to each visualization can be found here: https://info-4602-5602.github.io/project-1-mozilla-csci5602-project1-ahmed_alex_pratik/</p>
+
 <h2>Information about our Visualizations</h2>
 
 <h3>Privacy & Tech  Awareness Score Across the Globe</h3>
@@ -96,10 +99,6 @@ Ahmed Al Hasani, Alex Costinescu, and Pratik Revankar
   <li>Privacy Score</li>
   <li>Tech Awareness Score</li>
 </ul>
-
-<h2>How to Run</h2>
-<p>The links to each visualization can be found here: https://info-4602-5602.github.io/project-1-mozilla-csci5602-project1-ahmed_alex_pratik/</p>
-
 
 <h2>Team Member Roles</h2>
 
