@@ -99,5 +99,5 @@ Ahmed Al Hasani, Alex Costinescu, and Pratik Revankar
 <h2>Team Member Roles</h2>
 
 <ul>
-  <li><strong>Ahmed:</strong> Created the Privacy & Tech  Awareness Score Across the Globe visualization.</li>
+  <li><strong>Ahmed:</strong> Created the <em>Privacy & Tech  Awareness Score Across the Globe</em> visualization.</li>
 </ul>
