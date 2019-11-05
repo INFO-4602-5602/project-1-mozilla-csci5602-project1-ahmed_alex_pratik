@@ -65,3 +65,39 @@
   <li>Finally, the last column is the total score, which is the average privacy score (the higher the score, the more important privacy is to respondents in that country) multiplied by the tech awareness score.</li>
   <li>The final dataframe will then be passed to the choropleth function from plotly geographical_objects module. </li>
 </ol>
+
+<h2>Interactivity</h2>
+
+<h3>Privacy & Tech  Awareness Score Across the Globe</h3>
+<p>This visualization provides interactivity through a hover tool. If the user hovers over a specific country, the data for that specific country will be shown, which includes score, name of country, privacy score, tech awareness score, and the total score. </p>
+
+<h2>Tasks Accomplished</h2>
+
+<p>Our questions resulted from our curiosity and the desire to create entertaining and interactive visualizations that enable us and users to learn about the survey’s results in a quick and lighthearted manner. Below are lists of tasks each visualization accomplishes:</p>
+
+<h3>Privacy & Tech  Awareness Score Across the Globe</h3>
+<p>As mentioned earlier, we wanted to create a geographical visualization to communicate information in a quick, straightforward, and entertaining manner. We also believed the visualization will introduce a fun way of picking out outliers. Are there light-colored countries in a sea of dark colored countries, or vice versa? If so, why? What are their traits? Do these countries exhibit different traits (more tech aware, more concerned about privacy)? For instance, Russia has a dark color, because they have a high tech awareness score, but a lower privacy priority score as opposed to countries like the UK and Australia, which overall high a high (not as high as Russia’s) tech awareness score and a high privacy priority concern (less than Russia’s privacy concern score).</p>
+<p>As a result, we focused on these tasks for this visualization:</p>
+<ul>
+  <li>Present: exhibit data from the survey’s findings and our simple analysis in a visual manner through color and positioning. </li>
+  <li>Search: lookup a specific country and its results or find the highest scored countries (countries that are highly tech aware or deem privacy more important than other countries), or locate a specific country to find its traits. </li>
+  <li>Query: compare two countries, two continents with each other to uncover general trends simply by hovering over them to view their respective results. Summarize the overall trends and correlation which is communicated by the color variation in different locations.</li>
+  <li>Outlier detection: there are countries in the middle of a ‘yellow sea’ that are darker in color, why are these countries different than their neighbors? </li>
+</ul>
+
+<h2>Data Attributes</h2>
+
+<h3>Privacy & Tech  Awareness Score Across the Globe</h3>
+<ul>
+  <li>Country</li>
+  <li>Privacy Score</li>
+  <li>Tech Awareness Score</li>
+</ul>
+
+<h2>How to Run</h2>
+
+<h2>Team Member Roles</h2>
+
+<ul>
+  <li><strong>Ahmed:</strong> Created the Privacy & Tech  Awareness Score Across the Globe visualization.</li>
+</ul>
