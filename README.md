@@ -43,6 +43,16 @@ Ahmed Al Hasani, Alex Costinescu, and Pratik Revankar
 
 <br />
 <br />
+<h2>Perceptually-Informed Design</h2>
+
+<h3>Importance of Privacy, Security, and Safety vs. Number of Online Connected Devices Owned</h3>
+<p>The pre-attentive property of this visualization is the spatial positioning of the data points (country wise distribution) in the two dimensional space, which gives us a gist of the distribution of countries with respect to the number of devices they own and level of importance or priority to safety, security and privacy, on average.</p>
+
+<h3>Trust vs. Knowledge</h3>
+<p>This visualization allows the <strong>bottom-up</strong> search where a user can <strong>hover</strong> over and <strong>browse</strong> the various data points (tiles), and <strong>explore</strong> the number of response and technology literacy scores. It allows the user to perform a <strong>visual search</strong> of the visualization.</p>
+
+<br />
+<br />
 <h2>Preprocessing Steps</h2>
 
 <h3>Privacy & Tech  Awareness Score Across the Globe</h3>
@@ -94,6 +104,8 @@ We used Python DataFrames as input to the visualizations in Bokeh.</p>
 <br />
 <br />
 <h2>Interactivity</h2>
+<p>Visualizations crated in Bokeh and Plotly have out-of-the box interaction tools such as, span and zoom that allows the user to focus on certain regions on the viz. In the viz. comparing number of connected devices and priority of safety, security and privacy, you can zoom into a particular region of the scatter plot plot, to magnify the distance between the data points and also learn which countries are in close proximity to each other.</p>
+<p>Each viz. also contains a ‘reset’ button to undo any interactions.</p>
 
 <h3>Privacy & Tech  Awareness Score Across the Globe</h3>
 <p>This visualization provides interactivity through a hover tooltip. If the user hovers over a specific country, the data for that specific country is shown, which includes score, name of country, privacy score, tech awareness score, and the total score. </p>
@@ -103,6 +115,7 @@ We used Python DataFrames as input to the visualizations in Bokeh.</p>
 
 <h3>Importance of Privacy, Security, and Safety vs. Number of Online Connected Devices Owned</h3>
 <p>This visualization provides interactivity through a hover tooltip. If the user hovers over a specific tile, the data for that specific tile is shown, which includes the country, number of responses, number of online connected devices, importance score of Privacy, Security and Safety, and Technology savviness score.</p>
+
 
 <br />
 <br />
