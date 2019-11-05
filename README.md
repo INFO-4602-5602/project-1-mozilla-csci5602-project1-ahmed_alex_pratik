@@ -16,7 +16,7 @@ Ahmed Al Hasani, Alex Costinescu, and Pratik Revankar
 <h3>Trust vs. Knowledge</h3>
 <p>This visualization shows where people are more likely to place their trust based on the number of connected devices that they own and their level of tech-savviness. Darker colors show less familiarity with technology, while lighter colors show more familiarity with tech based on how users responded to the survey.</p>
 
-<h3>Importance of Privacy, Security, and Safety vs. Number of Connective Devices Owned</h3>
+<h3>Importance of Privacy, Security, and Safety vs. Number of Online Connected Devices Owned</h3>
 <p>This visualization displays the Number of Connected Devices a user owns in relation to the importance that they place on Privacy, Security, and Safety. Points are plotted based on the average answers per-country and the size of a circle is scaled based on the average tech-saviness of people surveyed from that country.</p>
 
 <br />
@@ -37,7 +37,7 @@ Ahmed Al Hasani, Alex Costinescu, and Pratik Revankar
 <p>Since we were dealing with ‘categorical’ data attributes, we considered using a heat map, to plot data points, with each tile expressing the technology savviness score, for a particular ‘trustworthy entity’ and corresponding number of online devices they own.</p>
 <p>We used an interactive visualization tool called Bokeh, since it allowed rapid development with Python. </p>
 
-<h3>Importance of Privacy, Security, and Safety vs. Number of Connective Devices Owned</h3>
+<h3>Importance of Privacy, Security, and Safety vs. Number of Online Connected Devices Owned</h3>
 <p>We wanted to show a correlation between the number of online connected devices owned by respondents from around the world (grouped by country) , and how much importance they gave to safety, security and privacy before purchasing these technology products. We decided to use a scatter plot to visualize the distribution of the data across the countries, with each data point as a circle, whose radius was proportional to their technology savviness.</p>
 <p>We used an interactive visualization tool called Bokeh, since it allowed rapid development with Python.</p>
 
@@ -86,7 +86,7 @@ Ahmed Al Hasani, Alex Costinescu, and Pratik Revankar
 <p>A subset of the data was created by first identifying the relevant columns, and then hot encoding the data fields so that we could work with numeric data for aggregation. We used Python DataFrames as input to the visualizations in Bokeh.</p>
 <p>Columns for online connected devices and technology terms were encoded and aggregated, to get an overall score, for each respondent.</p>
 
-<h3>Importance of Privacy, Security, and Safety vs. Number of Connective Devices Owned</h3>
+<h3>Importance of Privacy, Security, and Safety vs. Number of Online Connected Devices Owned</h3>
 <p>A subset of the data was created by first identifying the relevant columns, and then hot encoding the data fields so that we could work with numeric data for aggregation. 
 We used Python DataFrames as input to the visualizations in Bokeh.</p>
 <p>Columns for technology savviness, online connected devices and privacy, safety and security were encoded and aggregated, to get an overall score, for each respondent, by country.</p>
@@ -101,7 +101,7 @@ We used Python DataFrames as input to the visualizations in Bokeh.</p>
 <h3>Trust vs. Knowledge</h3>
 <p>This visualization provides interactivity through a hover tooltip. If the user hovers over a specific tile, the data for that specific tile is shown, which includes Technology Literacy score, and the total number of responses.</p>
 
-<h3>Importance of Privacy, Security, and Safety vs. Number of Connective Devices Owned</h3>
+<h3>Importance of Privacy, Security, and Safety vs. Number of Online Connected Devices Owned</h3>
 <p>This visualization provides interactivity through a hover tooltip. If the user hovers over a specific tile, the data for that specific tile is shown, which includes the country, number of responses, number of online connected devices, importance score of Privacy, Security and Safety, and Technology savviness score.</p>
 
 <br />
@@ -124,7 +124,7 @@ We used Python DataFrames as input to the visualizations in Bokeh.</p>
 <p>We were able to analyze how technology literacy was correlated to the entity to trust based not he number of online connected devices that an individual owned.  We learnt that respondents who owned more devices were more technologically literate (could explain more technology terms), and had fairly equal distribution of whom to trust, with resources on online safety, security and privacy.</p>
 <p>Respondents with highest literacy score, owned the max number of devices, and trusted Non-profit organizations like Mozilla and Consumer reports!</p>
 
-<h3>Importance of Privacy, Security, and Safety vs. Number of Connective Devices Owned</h3>
+<h3>Importance of Privacy, Security, and Safety vs. Number of Online Connected Devices Owned</h3>
 <p>We were able to infer that people all over the world didn’t have the highest priority for Privacy, Security and Safety while purchasing the products, and own on average less than 5 connected devices. </p>
 <p>The people in general also have an average tech. savviness score of ~ 3</p>
 
@@ -146,7 +146,7 @@ We used Python DataFrames as input to the visualizations in Bokeh.</p>
   <li>Number of online connected devices they own</li>
 </ul>
 
-<h3>Importance of Privacy, Security, and Safety vs. Number of Connective Devices Owned</h3>
+<h3>Importance of Privacy, Security, and Safety vs. Number of Online Connected Devices Owned</h3>
 <ul>
   <li>I consider myself (tech savviness)</li>
   <li>Number of online connected devices they own</li>
