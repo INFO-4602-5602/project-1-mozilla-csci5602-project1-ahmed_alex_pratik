@@ -98,6 +98,8 @@ Ahmed Al Hasani, Alex Costinescu, and Pratik Revankar
 </ul>
 
 <h2>How to Run</h2>
+<p>The links to each visualization can be found here: https://info-4602-5602.github.io/project-1-mozilla-csci5602-project1-ahmed_alex_pratik/</p>
+
 
 <h2>Team Member Roles</h2>
 
