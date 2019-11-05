@@ -6,10 +6,10 @@ Ahmed Al Hasani, Alex Costinescu, and Pratik Revankar
 <h3>Privacy & Tech  Awareness Score Across the Globe</h3>
 <p>This visualization shows a score of the tech knowledge and privacy priorities each country averaged. It shows this by utilizing color to reflect each country’s score on the world map. The darker the color, the higher the score, and vice versa.</p>
 
-<h3>Trust vs Knowledge</h3>
+<h3>Trust vs. Knowledge</h3>
 <p></p>
 
-<h3>Importance of Privacy, Security, and Safety vs Number of Connective Devices Owned</h3>
+<h3>Importance of Privacy, Security, and Safety vs. Number of Connective Devices Owned</h3>
 <p></p>
 
 <h2>Design Process</h2>
@@ -103,4 +103,6 @@ Ahmed Al Hasani, Alex Costinescu, and Pratik Revankar
 
 <ul>
   <li><strong>Ahmed:</strong> Created the <em>Privacy & Tech  Awareness Score Across the Globe</em> visualization.</li>
+  <li><strong>Pratik:</strong> Created <em>Trust vs. Knowledge</em> and <em>Importance of Privacy, Security, and Safety vs. Number of Connective Devices Owned</em> visualizations.</li>
+  <li><strong>Alex:</strong> Assisted Pratik and created documentation/html pages.</li>
 </ul>
