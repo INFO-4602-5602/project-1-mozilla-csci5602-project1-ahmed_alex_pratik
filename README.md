@@ -38,6 +38,8 @@ Ahmed Al Hasani, Alex Costinescu, and Pratik Revankar
 <p>We used an interactive visualization tool called Bokeh, since it allowed rapid development with Python. </p>
 
 <h3>Importance of Privacy, Security, and Safety vs. Number of Connective Devices Owned</h3>
+<p>We wanted to show a correlation between the number of online connected devices owned by respondents from around the world (grouped by country) , and how much importance they gave to safety, security and privacy before purchasing these technology products. We decided to use a scatter plot to visualize the distribution of the data across the countries, with each data point as a circle, whose radius was proportional to their technology savviness.</p>
+<p>We used an interactive visualization tool called Bokeh, since it allowed rapid development with Python.</p>
 
 <br />
 <br />
@@ -85,6 +87,9 @@ Ahmed Al Hasani, Alex Costinescu, and Pratik Revankar
 <p>Columns for online connected devices and technology terms were encoded and aggregated, to get an overall score, for each respondent.</p>
 
 <h3>Importance of Privacy, Security, and Safety vs. Number of Connective Devices Owned</h3>
+<p>A subset of the data was created by first identifying the relevant columns, and then hot encoding the data fields so that we could work with numeric data for aggregation. 
+We used Python DataFrames as input to the visualizations in Bokeh.</p>
+<p>Columns for technology savviness, online connected devices and privacy, safety and security were encoded and aggregated, to get an overall score, for each respondent, by country.</p>
 
 <br />
 <br />
@@ -97,6 +102,7 @@ Ahmed Al Hasani, Alex Costinescu, and Pratik Revankar
 <p>This visualization provides interactivity through a hover tooltip. If the user hovers over a specific tile, the data for that specific tile is shown, which includes Technology Literacy score, and the total number of responses.</p>
 
 <h3>Importance of Privacy, Security, and Safety vs. Number of Connective Devices Owned</h3>
+<p>This visualization provides interactivity through a hover tooltip. If the user hovers over a specific tile, the data for that specific tile is shown, which includes the country, number of responses, number of online connected devices, importance score of Privacy, Security and Safety, and Technology savviness score.</p>
 
 <br />
 <br />
@@ -119,6 +125,8 @@ Ahmed Al Hasani, Alex Costinescu, and Pratik Revankar
 <p>Respondents with highest literacy score, owned the max number of devices, and trusted Non-profit organizations like Mozilla and Consumer reports!</p>
 
 <h3>Importance of Privacy, Security, and Safety vs. Number of Connective Devices Owned</h3>
+<p>We were able to infer that people all over the world didn’t have the highest priority for Privacy, Security and Safety while purchasing the products, and own on average less than 5 connected devices. </p>
+<p>The people in general also have an average tech. savviness score of ~ 3</p>
 
 <br />
 <br />
@@ -139,6 +147,11 @@ Ahmed Al Hasani, Alex Costinescu, and Pratik Revankar
 </ul>
 
 <h3>Importance of Privacy, Security, and Safety vs. Number of Connective Devices Owned</h3>
+<ul>
+  <li>I consider myself (tech savviness)</li>
+  <li>Number of online connected devices they own</li>
+  <li>Privacy, Security and Safety rankings</li>
+</ul>
 
 <br />
 <br />
