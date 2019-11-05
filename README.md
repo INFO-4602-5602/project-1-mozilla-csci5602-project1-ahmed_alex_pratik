@@ -1,79 +1,67 @@
-# 5602-Mozilla
-*Due November 4, 2019 @ 11:59pm through GitHub Classroom*
+<h1>5602-Mozilla</h1>
+<b>Ahmed, Alex, and Pratik</b>
 
-Projects may be submitted up to 3 days late, with a 10% penalty per day
+<h2>Information about our Visualizations</h2>
 
-<h2>Overview: </h2>
-Mozilla (the same company that created the Firefox web browser) recently conducted a survey on people's perceptions of privacy in our modern, highly connected world. The survey was aimed at understanding how comfortable people from all over the world are with various technology and how that comfort varies with things like device ownership or tech savvy. You can learn more about their data here: https://blog.mozilla.org/blog/2017/11/01/10-fascinating-things-we-learned-when-we-asked-the-world-how-connected-are-you/?utm_source=newsletter-mofo&utm_medium=email&utm_campaign=IOTsurveyresults&utm_content=callout&utm_term=4434975
+<h3>Privacy & Tech  Awareness Score Across the Globe</h3>
+<p>The geographical visualization shows a score of the tech knowledge and privacy priorities each country averaged. The visualization shows this by utilizing color to reflect each country’s score in the world map. The darker the color the higher the score, and vice versa.</p>
 
-The challenge is that, while they have a rich set of data, they don't have strong ways of exploring that data beyond basic spreadsheets and descriptive statistics. Your goal is to create a set of visualizations that allows them to engage with their data. The raw data is available at: https://drive.google.com/file/d/0B5UMbl9u1_wQc2l0ZTU0dTdoYnM/view
+<h3></h3>
+<p></p>
 
-To do this, create visualizations that illustrate at least two insights into their data. The above blog post has some insights you can use to start thinking about this dataset, but I encourage you to think outside of these ideas as well. 
+<h3></h3>
+<p></p>
 
-<h2>Minimum Requirements:</h2> 
-Your project must:
-<ul>
-<li> Include a README.md file that outlines:
-  <ul>
-  <li>Information about your visualizations and what they show. Include information about interactions, preprocesses, and design as appropriate. Note what tasks the visualization allows you to accomplish to derive this insight and how your design is tailored to support these tasks. </li>
-  <li>Your design process (e.g., how did you go about designing, building, and refining your system? Why did you choose these representations?)</li>
-  <li>Your team roles for each individual</li>
-  <li>How to run your project</li></ul></li>
-<li>Include at least two unique visualizations:
-  <ul>
-  <li>One visualization must include some quantitative data</li>
-  <li>One visualization must include categorical data</li>
-  <li>Each visualization must be interactive</li>
-  <li>Your visualizations should support at least one meaningful comparison between related data attributes</li>
-  <li>Your visualizations should visualize at least five data attributes total</li></ul></li>
-<li>Be able to work with any dataset of this format (e.g., the numbers are interchangable but the columns and document titles are fixed).</li>
-</ul>
+<h2>Design Process</h2>
 
-<h2>Above and Beyond:</h2> 
-The above requirements are the minimum for a passing grade on this project. Some ideas to improve your project include:<ul>
-<li>Unusual Representations: Draw on some of the examples from class to represent data in ways beyond a typical scatterplot or bar chart.</li>
-<li>Style: Keep the style consistent across all your views, with an eye towards intelligently applying visual design.</li>
-<li>Geography: Incorporate maps or other geospatial data components into your visualization.</li>
-<li>Interesting Tasks: Derive insight into the data beyond that provided in Mozilla's current post. Highlight these insights in your readme and describe how the visualization enables them.</li>
-<li>Perceptually-Informed Design: Integrate perceptual concepts into your visualization design and discuss how you've integrated those concepts in your readme.</li>
-<li>Coordinated Views: Have two or more visualizations that interact with one another as you move through the data.</li></ul>
+<h3>Privacy & Tech  Awareness Score Across the Globe</h3>
+<p>When we read the problem statement by Mozilla, and looked at the survey with the results, we started asking ourselves what questions interest us about the problem and the results. What are trends that we want to uncover, find out, and share with everyone. We wanted to find correlations between different traits across countries. We wanted to find out how tech savvy or tech aware respondents are and how this positively/negatively correlate with how important privacy is deemed and whom they trust. Does a person trust less and views privacy more important the more knowledge he/she is about technology? Are there outliers to the general trend we will uncover?</p>
+<p>Our geographical visualization resulted from the question: does privacy priorities and tech awareness correlate and vary across different countries?</p>
+<p>As a result, it was evident a geographical visualization would be constructed. As all of us are comfortable with programming, and Python was a common programming language we were familiar with, we opted to create our visualizations with various Python packages. </p>
+<p>Python’s Plotly provides easy to use functions to create map objects that would combine seamlessly with Pandas’s dataframes which is what we used to store the dataset and preprocess it for Plotly’s geographical objects functionality. Additionally, Plotly outputs a single HTML file independent of the dataset and the packages required to create the visualization, which was very convenient for this project.</p>
+<p>Plotly’s chropleth graph/map will allow us to communicate position, and the color functionality provided by Plotly will allow us to communicate a second dimension, which in our is the score. We believed that the default color scale provided by the choropleth function was appropriate versus the red/blue color scale, because the default one was able to capture the different scores nearby and faraway countries accurately, rather than shades of blue or red which we believed made it harder to understand how one location varied exactly with another location.  </p>
+<p>To keep the visualization simple and clean, we wanted to capture two main attributes (privacy priorities and tech awareness) through one measure. As a result, we decided we will multiply the two scores, and the color scale will reflect this overall score. We opted to follow this approach, rather than have two color scales, or two different visualization channels to communicate the two different attributes.</p>
+<p>Additionally, this allowed us to capture and communicate outliers in an interesting way. Is there a country with a high/low score even when the privacy and tech awareness scores were different in magnitude (where one score was significantly higher than the other)? This is further discussed under the tasks section.</p>
+<p>As a result, this visualization includes mostly quantitative data.</p>
 
-<h2>Platforms:</h2> 
-You can use any development platform you'd like so long as your final project runs in the browser without having to install anything new or is a thoughtfully constructed physicalization (your physicalization does not need to be interactive). Your project readme should include step-by-step instructions on how to run your projects and it should run without me having to modify the code. You are welcome to use different platforms for each visualization.
+<h2>Preprocessing Steps</h2>
 
-Some platforms to look at include:
-<ul>
-<li>D3</li>
-<li>R with ggplot</li>
-<li>WebGL or Three.js</li>
-<li>ProcessingJS</li>
-<li>Google Maps API</li>
-<li>Open Street Map API</li>
-<li>Bokeh</li>
-</ul>
-
-If you would like to use a platform that will push you in creative ways but may not support all of the requirements of the project, please come talk to me. 
-
-<h2>Submissions:</h2>
-All submissions must be made through GitHub with a timestamp by 11:59pm on 11.4. Your submission files should include:
-<ul>
-<li>Your README</li>
-<li>Your code and/or project if using a web-based project</li>
-</ul>
-Note that each group only needs to submit one file. 
-
-If you choose to submit a physicalization, please submit that artifact by leaving it at my office by close of business on November 4. You will still need to submit a readme explaining your project.
-
-
-## Project Teams
-Group 1:	Jess Mailhot, Julia Medeiros, Mike Flanigan, & Jack Hessburg
-
-Group 2:	Telly Umada, Annebeth Buis, Chandan Naik, & Nishank Sharma
-
-Group 3:	Viv Lai, Chao-Chun Hsu, & Yichen Wang	
-
-Group 4:	Mikhaila Friske, Dianna Radpour, & Abbie Zimmerman-Niefield	
-
-Group 5:	Lan Sang, Ling Liu, & Ziying Zhang	
-
-Group 6	Ahmed Al Hasani, Alex Constinescu, & Pratik Revankar		
+<h3>Privacy & Tech  Awareness Score Across the Globe</h3>
+<p>The preprocessing steps completed for this visualization included:</p>
+<ol>
+  <li>Create a subset of the dataset. The subset includes the columns listed below. The first two columns are privacy priorities and fear columns, the rest of the columns (except for countries) will reflect a respondent’s tech awareness (what devices they have and what topics they can explain).<br /><br />
+    <span style="font-size:0.875em">
+      <ul>
+        <li>Privacy: You Are planning on buying your next cool new tech toy. Take a look at the items below and arrange them in order of importance as you make that purchase. (PRIVACY COLUMN)</li>
+        <li>What is your biggest fear as we move towards a more connected future? (PRIVACY COLUMN)</li>
+        <li>WiFi Router: Check all the internet connected devices you currently own</li>
+        <li>Laptop computer: Check all the internet connected devices you currently own</li>
+        <li>Smart phone: Check all the internet connected devices you currently own</li>
+        <li>Smart TV: Check all the internet connected devices you currently own</li>
+        <li>Activity Tracker (ex: Fitbit or Apple Watch): Check all the internet connected devices you currently own</li>
+        <li>Smarthome Hub (ex. Amazon Echo, Google Alexa): Check all the internet connected devices you currently own</li>
+        <li>Car that connects to the internet: Check all the internet connected devices you currently own</li>
+        <li>Smart Thermostat (ex: Nest): Check all the internet connected devices you currently own</li>
+        <li>Smart Appliance (ex. Coffeemaker, Refrigerator, Oven, Fridge): Check all the internet connected devices you currently own</li>
+        <li>Smart Door Locks (ex. Door locks for your home you can open via bluetooth): Check all the internet connected devices you currently own</li>
+        <li>Smart Lighting (ex. Connected lighting switches, dimmers, or bulbs): Check all the internet connected devices you currently own</li>
+        <li>IoT: Check all the terms below that you could explain to a friend</li>
+        <li>Connected Devices: Check all the terms below that you could explain to a friend</li>
+        <li>Botnet: Check all the terms below that you could explain to a friend</li>
+        <li>Blockchain: Check all the terms below that you could explain to a friend</li>
+        <li>RFID: Check all the terms below that you could explain to a friend</li>
+        <li>DDOS: Check all the terms below that you could explain to a friend</li>
+        <li>Zero Day: Check all the terms below that you could explain to a friend</li>
+        <li>VPN: Check all the terms below that you could explain to a friend</li>
+        <li>TOR:Check all the terms below that you could explain to a friend</li>
+        <li>Countries</li>
+      </ul>
+    </span>
+    <br />
+  </li>
+  <li>Then, all the columns are converted into dummy columns using pandas’ function get_dummies. The first column is already numerical, but the rest of the columns basically contain an answer or an NaN value, hence, for a particular data row, if the user answered that question, the cell will be converted to 1, otherwise, 0. Additionally, if the user answered that their biggest fear was privacy, the user would receive 1, otherwise, 0. The first column however asks the user for the features they deem important (by ranking them) when they buy a new product. If privacy scored 10, then it means its not important, but if it received 1, the user pyritizes privacy. To capture this, the order of privacy would be subtracted by 11 and multiplied by -1, hence, an answer of ‘1’ would actually be 10 (10 being very important, where 1 would then mean not as important compared to other features).</li>
+  <li>We summed up all the scores 1’s for the tech awareness topics and privacy related topics as well. We averaged the scores for each country. </li>
+  <li>We added one more column, which is the country code for each country. Plotly requires a country_code column. Hence, Fiji would be FIJ, and Canada would be CAN. This was done using the package pycountry.</li>
+  <li>Finally, the last column is the total score, which is the average privacy score (the higher the score, the more important privacy is to respondents in that country) multiplied by the tech awareness score.</li>
+  <li>The final dataframe will then be passed to the choropleth function from plotly geographical_objects module. </li>
+</ol>
