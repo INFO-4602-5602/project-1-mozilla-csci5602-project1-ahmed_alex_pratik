@@ -7,10 +7,10 @@ Ahmed Al Hasani, Alex Costinescu, and Pratik Revankar
 <p>This visualization shows a score of the tech knowledge and privacy priorities each country averaged. It shows this by utilizing color to reflect each country’s score on the world map. The darker the color, the higher the score, and vice versa.</p>
 
 <h3>Trust vs. Knowledge</h3>
-<p></p>
+<p>This visualization shows where people are more likely to place their trust based on the number of connected devices that they own and their level of tech-savviness. Darker colors show less familiarity with technology, while lighter colors show more familiarity with tech based on how users responded to the survey.</p>
 
 <h3>Importance of Privacy, Security, and Safety vs. Number of Connective Devices Owned</h3>
-<p></p>
+<p>This visualization displays the Number of Connected Devices a user owns in relation to the importance that they place on Privacy, Security, and Safety. Points are plotted based on the average answers per-country and the size of a circle is scaled based on the average tech-saviness of people surveyed from that country.</p>
 
 <h2>Design Process</h2>
 
