@@ -106,5 +106,5 @@ Ahmed Al Hasani, Alex Costinescu, and Pratik Revankar
 <ul>
   <li><strong>Ahmed:</strong> Created the <em>Privacy & Tech  Awareness Score Across the Globe</em> visualization.</li>
   <li><strong>Pratik:</strong> Created <em>Trust vs. Knowledge</em> and <em>Importance of Privacy, Security, and Safety vs. Number of Online Connected Devices Owned</em> visualizations.</li>
-  <li><strong>Alex:</strong> Assisted Pratik and created documentation/html pages.</li>
+  <li><strong>Alex:</strong> Created <em>Trust vs. Knowledge</em> visualization and documentation/html pages.</li>
 </ul>
