@@ -1,5 +1,5 @@
 <h1>5602-Mozilla</h1>
-<b>Ahmed, Alex, and Pratik</b>
+Ahmed Al Hasani, Alex Costinescu, and Pratik Revankar
 
 <h2>Information about our Visualizations</h2>
 
